@@ -1,0 +1,13 @@
+import X-Http-Method-Override: 
+	
+
+@host=http://localhost:5000
+POST {{host}}/users
+Content-Type: application/json
+
+{
+	"id":4,
+	"author":"Test Author",
+	"language":"Test Language",
+	"title":"Test Title"
+}
